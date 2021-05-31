@@ -1,0 +1,7 @@
+.social-side{
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

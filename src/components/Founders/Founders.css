@@ -1,0 +1,33 @@
+.founder{
+    display: flex;   
+}
+.founder-container{
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.founder-maksat{
+    width: 50%;
+    padding: 10px;
+}
+.founder-members{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    padding: 0 20px;
+}
+.member-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+}
+.member-items > p{
+    margin-top: 80px;
+}
+.member-items > img{
+    align-items: center;
+}
