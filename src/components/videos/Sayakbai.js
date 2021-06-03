@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Showreel.css"
+import { ContentDesc, VideoContainer, VideoContent } from './VideoElements'
 
 function Sayakbai() {
     return (

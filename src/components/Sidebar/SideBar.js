@@ -10,19 +10,19 @@ const SideBar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="projects">
+                    <SidebarLink onClick={toggle} to="projects">
                         наши проекты
                     </SidebarLink>
-                    <SidebarLink to="about">
+                    <SidebarLink onClick={toggle} to="about">
                         о нас
                     </SidebarLink>
-                    <SidebarLink to="founders" >
+                    <SidebarLink onClick={toggle} to="founders" >
                         основатели
                     </SidebarLink>
-                    <SidebarLink to="clients">
+                    <SidebarLink onClick={toggle} to="clients">
                         наши клиенты
                     </SidebarLink>
-                    <SidebarLink to="contacts">
+                    <SidebarLink onClick={toggle} to="contacts">
                             контакты
                     </SidebarLink>
                     <SocialSide />

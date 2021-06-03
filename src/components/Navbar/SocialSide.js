@@ -8,7 +8,7 @@ import './SocialSide.css';
 function SocialSide() {
     return (
         <div className="social-side">
-             <IconContext.Provider value={{display: "flex",color: "black", size:"40px", justifyContent: "center"}}>
+             <IconContext.Provider value={{display: "flex",color: "black", size:"35px", justifyContent: "center"}}>
                 <TiSocialVimeoCircular />
                 <TiSocialYoutubeCircular /> 
                 <TiSocialFacebookCircular />

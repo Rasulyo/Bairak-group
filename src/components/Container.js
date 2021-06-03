@@ -6,7 +6,8 @@ z-index: 1;
 width: 100%;
 max-height: 100%;
 margin: 0 auto;
-max-width: 1400px;
+max-width: 1080px;
+box-sizing: border-box;
 // @media screen and(max-width: 768px) {
 //     margin-top: 150px;
 // }

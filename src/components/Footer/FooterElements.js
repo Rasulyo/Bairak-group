@@ -17,7 +17,7 @@ z-index: 10;
 
 export const FooContainer = styled.div`
 width: 100%;
-max-width: 1400px;
+max-width: 1080px;
 display: flex;
 text-align: center;
 align-items: center;

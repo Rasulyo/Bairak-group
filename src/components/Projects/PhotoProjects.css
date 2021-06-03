@@ -1,3 +1,36 @@
-.project-photos img {
-    width: 17%;
+.photo-projects{
+    width: 14%;
+    height: 240px;
+    /* height: 100%; */
+    margin: 3px;
+}
+@media screen and (max-width: 980px){
+    .photo-projects{
+        width: 16%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .photo-projects{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .photo-projects{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .photo-projects{
+        width: 40%;
+    }
+}
+
+
+@media screen and(max-width: 420px) {
+    .photo-projects{
+        width: 40%;
+    }
 }

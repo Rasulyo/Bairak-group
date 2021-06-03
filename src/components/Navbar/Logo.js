@@ -10,7 +10,7 @@ function Bairak() {
     return (
         <div className="logo">
             <div className="logo-left"></div>
-            <NavLogo><img src={logo} alt="logo" /></NavLogo>
+            <NavLogo><img src={logo} alt="logo" className="logo-image" /></NavLogo>
             <div className="logo-right"></div>
         </div>
     )

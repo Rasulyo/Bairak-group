@@ -1,10 +1,8 @@
 import React from 'react'
 import Add from '../Text/Add'
 import Alykul from '../videos/Alykul'
-import Sayakbai from '../videos/Sayakbai'
 import PhotoProjects from './PhotoProjects'
-import { Button} from 'react-scroll'
-import { BtnWrap, ProjectsContain } from './ProjectsElements'
+import { ProjectOurP, ProjectsContain,ProjectOurText } from './ProjectsElements'
 
 function Projects({id}) {
     return (
@@ -12,13 +10,13 @@ function Projects({id}) {
 
                 <ProjectsContain id={id}>
                <Add />
-                <BtnWrap>
-                    <Button to="home"/>
-                </BtnWrap>
-               <h2>Наши проекты</h2>
-               <p  style={{textAlign: "justify", fontSize: "24px" }}>Серия исторических роликов , 
-                   рассказывающие р выдаюшихся личностях Кыргызстана</p>
-               <Sayakbai />
+               <ProjectOurP>
+                    Наши проекты
+               </ProjectOurP>
+               <ProjectOurText>
+               Серия исторических роликов , 
+                   рассказывающие р выдаюшихся личностях Кыргызстана
+               </ProjectOurText>
                <Alykul /> 
                
 

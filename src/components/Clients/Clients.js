@@ -21,7 +21,7 @@ const Clients = ({id}) => {
         <ClientContain id={id}>
             <Client>
                 <ClientLogo>
-                    <img src={bank} alt="bank" />
+                    <img src={bank} alt="bank" className="client-logo" />
                 </ClientLogo>
                 <ClientP>
                 1.Национальный Банк Кыргызской Республики
@@ -30,7 +30,7 @@ const Clients = ({id}) => {
                 </ClientP>
 
                 <ClientLogo>
-                    <img src={KZ} alt="KZ" />
+                    <img src={KZ} alt="KZ" className="client-logo" />
                 </ClientLogo>
                 <ClientP>
                 2. Фонд Первого Президента Казахстана
@@ -38,14 +38,14 @@ const Clients = ({id}) => {
                 </ClientP>
 
                 <ClientLogo>
-                    <img src={turkish} alt="turkish" />
+                    <img src={turkish} alt="turkish" className="client-logo" />
                 </ClientLogo>
                 <ClientP>
                 3. Antalya Film Ekibi - самая большая кинокомпания в Анталии, Турция.
                 </ClientP>
 
                 <ClientLogo>
-                    <img src={RF} alt="RF" />
+                    <img src={RF} alt="RF"  className="client-logo"/>
                 </ClientLogo>
                 <ClientP>
                 4. Министерство культуры РФ
@@ -53,21 +53,21 @@ const Clients = ({id}) => {
                 </ClientP>
 
                 <ClientLogo>
-                    <img src={abyshata} alt="abdyshata" />
+                    <img src={abyshata} alt="abdyshata" className="client-logo" />
                 </ClientLogo>
                 <ClientP>
                 5. Компания “Абдыш Ата” - сняли серии имиджевых социальных роликов
                 </ClientP>
 
                 <ClientLogo>
-                    <img src={usaid} alt="usaid" />
+                    <img src={usaid} alt="usaid" className="client-logo" />
                 </ClientLogo>
                 <ClientP>
                 6. “USAID” - сняли серию Документальных фильмов про активных людей КР
                 </ClientP>
 
                 <ClientLogo>
-                    <img src={internews} alt="internews" />
+                    <img src={internews} alt="internews" className="client-logo" />
                 </ClientLogo>
                 <ClientP>
                 7. “INTERNEWS”- сняли серию фильмов для детей «Аманат»
