@@ -1,7 +1,13 @@
 .social-side{
+    bottom: 0;
     display: flex;
-    margin-top: 15px;
-    text-align: center;
     align-items: center;
     justify-content: center;
+}
+.social-sidebar{
+    width: 40px;
+    height: 30px;
+    color: #000;
+    background-color: #fff;
+    bottom: 0;
 }

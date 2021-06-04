@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{ useState} from 'react'
 import { CarData } from './CarouselData'
 import {IoIosArrowDroprightCircle,IoIosArrowDropleftCircle } from 'react-icons/io'
 // import {FaArrowAltCircleRight,FaArrowAltCircleLeft } from 'react-icons/fa'
@@ -10,6 +10,10 @@ const Carousel = ({car}) => {
     const [current , setCurrent] = useState(0)
     const length = car.length
 
+    setTimeout(() => {
+            setCurrent(current === length -1 ? 0 : current + 1 )
+    }, 3000);
+    
     const nextCar = () => {
         setCurrent(current === length -1 ? 0 : current +1 )
     }
@@ -22,13 +26,14 @@ const Carousel = ({car}) => {
     if(!Array.isArray(car) || car.length <=0){
         return null
     }
+
     return (
         <Contain>
 
         <section className="car">
             
             <IoIosArrowDropleftCircle className="left-arrow" onClick={prevCar} />
-            <IoIosArrowDroprightCircle className="right-arrow" onClick={nextCar} />
+            <IoIosArrowDroprightCircle className="right-arrow"  onClick={nextCar} />
             {
                 CarData.map((car, index) => {
                     return(

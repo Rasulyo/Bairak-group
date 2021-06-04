@@ -25,6 +25,11 @@ const SideBar = ({ isOpen, toggle }) => {
                     <SidebarLink onClick={toggle} to="contacts">
                             контакты
                     </SidebarLink>
+                    {/* <SidebarLink></SidebarLink> */}
+                    {/* <SidebarLink></SidebarLink> */}
+                    <SidebarLink></SidebarLink>
+                    <SidebarLink></SidebarLink>
+
                     <SocialSide />
                 </SidebarMenu>
             </SidebarWrapper>

@@ -2,6 +2,12 @@
     display: flex;
     margin-top: 15px;
 }
+.social-item{
+    width: 40px;
+    height: 30px;
+    color: #000;
+    background-color: #fff;
+}
 
 
 

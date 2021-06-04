@@ -36,7 +36,7 @@ export const VideoContent = styled.div`
     max-height: 480px;
     height: 100%;
     border-radius: 5px;
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
 
     @media screen and (max-width: 968px){

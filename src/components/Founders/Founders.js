@@ -2,8 +2,8 @@ import React from 'react'
 import './Founders.css'
 import Maksat from '../../assets/Maksat.png'
 import ruslan from '../../assets/ruslan.png'
+// import { Found, MemberOne, MemberPhoto, MemberSpan, MemberText, MemberTextTwo, FounderContain } from './FoundersElements'
 
-import { Found, MemberOne, MemberPhoto, MemberSpan, MemberText, MemberTextTwo, FounderContain } from './FoundersElements'
 function Founders({id}) {
     return (
         // <FounderContain id={id}>

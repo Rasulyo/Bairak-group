@@ -1,11 +1,9 @@
 import React from 'react'
 import { ContactP, Foo, FooContact, FooContainer, FooP } from './FooterElements'
 import './Footer.css'
-import { IconContext } from 'react-icons'
-import { TiSocialVimeoCircular } from 'react-icons/ti'
-import { TiSocialYoutubeCircular } from 'react-icons/ti'
-import { FaVk } from 'react-icons/fa'
-import { TiSocialFacebookCircular } from 'react-icons/ti'
+import face from '../../assets/face.svg';
+import insta from '../../assets/insta.svg';
+import you from '../../assets/you.svg'
 
 
 
@@ -18,12 +16,16 @@ function Footer() {
         <Foo>
         <FooP>Следите за нашими проектами в соцсетях!</FooP>
         <FooContainer>
-            <IconContext.Provider value={{TextAlign: "center",margin:"25px",borderRadius: "50",color: "white", size:"100px", alignItems: "center"}}>
-                <TiSocialVimeoCircular />
-                <TiSocialYoutubeCircular /> 
-                <FaVk />
-                <TiSocialFacebookCircular />
-            </IconContext.Provider>
+        <a href="https://www.facebook.com/bairakgroup/" target="_blank">
+                <img className="social-items" src={face } alt="facebook"/>
+            </a>
+    
+        <a href="https://www.instagram.com/bairak_group/?utm_medium=copy_link" target="_blank">
+             <img className="social-items" src={insta} alt="instagram"/>
+        </a>
+        <a href="https://www.youtube.com/channel/UCKAfrQfMBZ4wOY5RRgb6lbQ" target="_blank">
+             <img className="social-items" src={you} alt="youtube"/>
+        </a>
         </FooContainer>
         <FooContainer>
             <FooContact>
