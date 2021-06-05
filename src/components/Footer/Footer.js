@@ -16,14 +16,14 @@ function Footer() {
         <Foo>
         <FooP>Следите за нашими проектами в соцсетях!</FooP>
         <FooContainer>
-        <a href="https://www.facebook.com/bairakgroup/" target="_blank">
+        <a href="https://www.facebook.com/bairakgroup/" target="_blank" rel="noreferrer">
                 <img className="social-items" src={face } alt="facebook"/>
             </a>
     
-        <a href="https://www.instagram.com/bairak_group/?utm_medium=copy_link" target="_blank">
+        <a href="https://www.instagram.com/bairak_group/?utm_medium=copy_link" target="_blank" rel="noreferrer">
              <img className="social-items" src={insta} alt="instagram"/>
         </a>
-        <a href="https://www.youtube.com/channel/UCKAfrQfMBZ4wOY5RRgb6lbQ" target="_blank">
+        <a href="https://www.youtube.com/channel/UCKAfrQfMBZ4wOY5RRgb6lbQ" target="_blank" rel="noreferrer">
              <img className="social-items" src={you} alt="youtube"/>
         </a>
         </FooContainer>

@@ -24,8 +24,8 @@ const About = ({id, car}) => {
                 </AboutP>
 
             </ContainContext>
-        </AboutContain>
                 <Carousel car={CarData} />
+        </AboutContain>
 
                 </>
     )

@@ -8,14 +8,14 @@ function SocialSide() {
     return (
         <div className="social-side">
 
-            <a href="https://www.facebook.com/bairakgroup/" target="_blank">
+            <a href="https://www.facebook.com/bairakgroup/" target="_blank" rel="noreferrer">
                 <img className="social-sidebar" src={face } alt="facebook"/>
             </a>
     
-        <a href="https://www.instagram.com/bairak_group/?utm_medium=copy_link" target="_blank">
+        <a href="https://www.instagram.com/bairak_group/?utm_medium=copy_link" target="_blank" rel="noreferrer">
              <img className="social-sidebar" src={insta} alt="instagram"/>
         </a>
-        <a href="https://www.youtube.com/channel/UCKAfrQfMBZ4wOY5RRgb6lbQ" target="_blank">
+        <a href="https://www.youtube.com/channel/UCKAfrQfMBZ4wOY5RRgb6lbQ" target="_blank" rel="noreferrer">
              <img className="social-sidebar" src={you} alt="youtube"/>
         </a>
          

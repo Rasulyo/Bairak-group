@@ -43,6 +43,8 @@ export const VideoContent = styled.div`
         transition: 0.8s all ease;
         max-width: 760px;
         width: 100%;
+        margin: 0 auto;
+
         // padding: 0 5px;
     }
 

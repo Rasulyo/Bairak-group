@@ -1,7 +1,6 @@
 import React,{ useState} from 'react'
 import { CarData } from './CarouselData'
 import {IoIosArrowDroprightCircle,IoIosArrowDropleftCircle } from 'react-icons/io'
-// import {FaArrowAltCircleRight,FaArrowAltCircleLeft } from 'react-icons/fa'
 import {Contain} from '../Container.js'
 
 import './About.css'
@@ -12,7 +11,7 @@ const Carousel = ({car}) => {
 
     setTimeout(() => {
             setCurrent(current === length -1 ? 0 : current + 1 )
-    }, 3000);
+    }, 5000);
     
     const nextCar = () => {
         setCurrent(current === length -1 ? 0 : current +1 )
@@ -38,7 +37,7 @@ const Carousel = ({car}) => {
                 CarData.map((car, index) => {
                     return(
                         <div 
-                        className={index === current ? 'car active' : "car" } 
+                        className={index === current ? 'car:active' : "car" } 
                         key={index}
                         >
                             {index === current && (
