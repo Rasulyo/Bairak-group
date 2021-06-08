@@ -12,6 +12,7 @@ code {
     monospace;
 }
 @font-face {
-  font-family: "Sergeo";
-  src: local("Sergeo"), url('./fonts/Sergeo.ttf'), format('truetype')
+  font-family: "Segoe";
+  src: local("Segoe"), url('./fonts/SegoeUI-Light.ttf'), format('truetype');
+  src: url('./fonts/SegoeUI.ttf')
 }

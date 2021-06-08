@@ -4,6 +4,7 @@ import './Navbar.css'
 import Bairak from './Logo'
 import { MobileIcon, Nav, NavbarContainer, NavContainer, NavItem, NavLinks,  NavMenu } from './NavbarElements'
 import Social from './Social'
+import Buttons from './Buttons'
 function Navbar({ toggle, isOpen }) {
     
     return (
@@ -15,12 +16,13 @@ function Navbar({ toggle, isOpen }) {
                         <FaBars  />
                     </MobileIcon>
                     <Bairak />
-                    <Social />
+                    <Buttons/>
+                    {/* <Social /> */}
                 </NavContainer>
                 <NavbarContainer>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="/">наши проеты</NavLinks>
+                            <NavLinks to="projects">наши проеты</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="about">о нас</NavLinks>

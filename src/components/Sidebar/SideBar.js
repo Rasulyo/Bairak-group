@@ -1,6 +1,7 @@
 import React from 'react'
 import { CloseIcon, Icon, SidebarContainer, SidebarLink, SidebarMenu, SidebarWrapper } from './SideBarElements'
 import SocialSide from '../Navbar/SocialSide'
+import ButtonsSide from './ButtonsSide'
 
 const SideBar = ({ isOpen, toggle }) => {
     return (
@@ -25,12 +26,11 @@ const SideBar = ({ isOpen, toggle }) => {
                     <SidebarLink onClick={toggle} to="contacts">
                             контакты
                     </SidebarLink>
-                    {/* <SidebarLink></SidebarLink> */}
-                    {/* <SidebarLink></SidebarLink> */}
-                    <SidebarLink></SidebarLink>
-                    <SidebarLink></SidebarLink>
-
-                    <SocialSide />
+                    <SidebarLink >
+                            
+                    </SidebarLink>
+                    {/* <SocialSide /> */}
+                    <ButtonsSide/>
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>

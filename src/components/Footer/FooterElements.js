@@ -9,6 +9,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 font-size: 1rem;
+font-family: SegoeUI-Light;
+font-weight: 400;
 z-index: 10;
 @media screen and (max-width: 960px){
     transition: 0.8s all ease;

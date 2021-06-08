@@ -64,6 +64,8 @@ justify-content: center;
 font-size: 1.5rem;
 text-decoration: none;
 list-style: none;
+font-family: SegoeUI;
+    font-weight: bold;
 transition: 0.2s ease-in-out;
 color: black;
 cursor: pointer;

@@ -7,10 +7,11 @@ width: 100%;
 max-height: 100%;
 margin: 0 auto;
 max-width: 1080px;
-padding-top: 80px;
-// @media screen and(max-width: 768px) {
-//     margin-top: 150px;
-// }
+padding-top: 120px;
+font-family: SegoeUI-Light;
+@media screen and (max-width: 768px) {
+    padding-top: 80px;
+}
 `
 
 
@@ -29,7 +30,7 @@ max-width: 100%;
 `
 export const ClientP = styled.p`
 font-size: 16px;
-font-family: Arial, san-serif;
+font-family: 'SegoeUI-Light';
 @media screen and(max-width: 768px){
     font-size: 13px;
 }

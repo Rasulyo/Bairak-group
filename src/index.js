@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import './fonts/Sergeo.ttf'
+import './fonts/SegoeUI-Light.ttf'
+import './fonts/SegoeUI.ttf'
+
 
 ReactDOM.render(
   

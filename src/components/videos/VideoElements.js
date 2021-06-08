@@ -20,6 +20,7 @@ width: 100%;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
+font-family: SegoeUI-Light;
 @media screen and (max-width: 768px){
     transition: 0.8s all ease;
     display: block;

@@ -23,14 +23,14 @@ export const Nav = styled.nav`
     }
 `
 export const NavbarContainer = styled.div`
-display: none;
 justify-content: center;
 z-index: 1;
 width: 100%;
-height: 100px;
 max-width: 1080px;
-@media screen and(max-width: 768px) {
-    margin-top: 150px;
+position: top;
+@media screen and (max-width: 768px){
+    display: none;
+
 }
 `
 export const NavContainer = styled.div`
@@ -52,7 +52,7 @@ export const NavLogo = styled(Link)`
 `
 
 export const MobileIcon = styled.div`
-display: block;
+    display: none;
     font-size: 1.5rem;
     padding-top: 25px;
     z-index: 999;
@@ -61,7 +61,7 @@ display: block;
     
 
     @media screen and (max-width: 768px){
-        // display: block;
+        display: block;
         position: absolute;
         top: 10px;
         right: 0; 
@@ -91,33 +91,37 @@ display: block;
 `
 
 export const NavMenu = styled.ul`
-display: none;
-align-items: space-between;
+display: flex;
+justify-content: space-between;
 list-style: none;
 text-align: center;
 height: 100%;
-
+margin: 2px 0;
 @media screen and (max-width: 768px){
-    display: none;
+    display: none;   
 }
 `
 
 export const NavItem = styled.li`
-    heigth: 80px;
+    // height: 80px;
     color: black;
-    padding: 10px 20px;
+    padding: px 20px;
+    font-family: Segoe UI;
+    font-weight: 500;
     cursor: pointer;
-
+    @media screen and (max-width: 768px){
+        display: none;   
+    }
 `
 
 export const NavLinks = styled(LinkS)`
-color: rgb(85, 85, 85);
+color: black;
 display: flex;
 align-items: center;
 text-decoration: none;
 cursor: pointer;
 padding: 0 1rem;
-heigth: 100%;
+height: 100%;
 font-size: 20px;
 font-weigth: 600;
 
